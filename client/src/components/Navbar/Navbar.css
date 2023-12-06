@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffffff; /* Background color for the navbar */
+    color: rgb(0, 0, 0); /* Text color */
+    padding: 10px 20px; /* Padding for the navbar */
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+  
+    /* Box-shadow for a slight depth effect */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+.navbar h1 {
+    margin: 5px; /* Remove default margin */
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgb(247, 146, 146);
+    margin-top: 100px;
+
+    transition: background-color 0.4s ease;
+  }
+
+  .navbar h1:hover {
+    background-color: rgb(238, 201, 201);
+  }
+  
+  .navbar h1 a {
+    text-decoration: none; /* Remove underline from links */
+    color: rgb(0, 0, 0); /* Text color for links */
+    margin: 0 10px; /* Spacing between links */
+  }
+
+  .navbar h1.isActive {
+    background-color: rgb(255, 0, 72);
+  }
+  
